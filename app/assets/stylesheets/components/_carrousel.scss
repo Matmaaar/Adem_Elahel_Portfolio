@@ -1,0 +1,55 @@
+
+
+.content-carousel {
+  position: relative;
+  margin-inline: -7%;
+
+}
+
+.content-row {
+  display: flex;
+  gap: 1rem;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  padding: 1rem 0;
+  padding-left: 5.8%;
+
+
+
+  // Style de la scrollbar
+  &::-webkit-scrollbar {
+    display: none;
+  }
+  scrollbar-width: none; // Firefox
+  -ms-overflow-style: none; // IE and Edge
+
+}
+
+.content-card {
+  height: 70vh;
+
+}
+
+#work-carrousel {
+padding-top: 20px;
+  padding-inline: 40px;
+}
+
+.content-infos {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+
+#year {
+  color: #959595;
+}
+
+#featured-project {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 3.5rem;
+  text-align: center;
+  padding-block: 40px;
+
+}
